@@ -38,14 +38,12 @@ Stores sales records:
 * `quantity`
 * `trans_date`
 
----
 
 ## 🔗 Relationships
 
 * One Category → Many Products
 * One Product → Many Sales Transactions
 
----
 
 ## 📊 Sample Data
 
@@ -55,7 +53,6 @@ The database includes:
 * 15+ Products
 * 15+ Transactions
 
----
 
 ## 🔍 Sample Queries
 
@@ -85,7 +82,6 @@ AND s.trans_date >= SYSDATE - 60
 WHERE s.prod_id IS NULL;
 ```
 
----
 
 ## 🚀 How to Run
 
